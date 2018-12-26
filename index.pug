@@ -1,0 +1,62 @@
+.experiment
+  .tabs
+    input(type="radio" name="tabs" id="tab1" checked)
+    label(class="nav-label" for="tab1") 
+      span Account
+      span(class="only")
+    input(type="radio" name="tabs" id="tab2")
+    label(class="nav-label" for="tab2" id="two") 
+      span Profile
+      span(class="only")
+    input(type="radio" name="tabs" id="tab3")
+    label(class="nav-label" for="tab3" id="three") 
+      span Settings
+      span(class="only")
+    input(type="radio" name="tabs" id="tab4")
+    label(class="nav-label" id="nobottom" for="tab4") 
+      span Miscellaneous
+      span(id="lastone" class="only")
+    .tab-content(id="tab-content1")
+      .name
+        .tree
+          .leaf
+        .tree.rightside
+          .leaf
+        img(class="profile" src="http://charlesmarcotte.me/images/12977238_10156780503205082_9096884707636244771_o.jpg")
+        .information
+          h3.user Charlie Marcotte
+          h5.account Pro Account
+      .formcontainers
+        .formfields
+          input(id="texter" type="text" placeholder="User Name" required /)
+          label(class="formlabel") User Name
+          span(id="top-move")
+          span(id="bottom-move")
+          span(id="side-move")
+        .formfields
+          input(id="texter" type="text" placeholder="Email" required /)
+          label(class="formlabel") Email
+          span(id="top-move")
+          span(id="bottom-move")
+          span(id="side-move")
+        .formfields
+          input(id="texter" type="text" placeholder="Occupation" required /)
+          label(class="formlabel") Occupation
+          span(id="top-move")
+          span(id="bottom-move")
+          span(id="side-move")
+        .formfields
+          input(id="texter" type="text" placeholder="Website" required /)
+          label(class="formlabel") Website
+          span(id="top-move")
+          span(id="bottom-move")
+          span(id="side-move")
+        .mountainbutton
+          p Save
+    .tab-content(id="tab-content2")
+      h3 Profile
+    .tab-content(id="tab-content3")
+      h3 Settings
+    .tab-content(id="tab-content4")
+      h3 Miscellaneous
+    
